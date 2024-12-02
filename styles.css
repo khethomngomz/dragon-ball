@@ -1,0 +1,14 @@
+/* Ensure the canvas fills the screen with no margin */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(
+    circle,
+    #000000,
+    #3a3a3a
+  ); /* Dark background for contrast */
+}
+
+canvas {
+  display: block;
+}
